@@ -14,39 +14,39 @@ const AppContainer = styled.div`
 const products = [
   {
     id: 1,
-    name: 'Nave Espacial Blaster Version',
-    price: 1000,
-    photo: 'https://i.ibb.co/18ZyWFX/img1.png'
+    name: 'Produto Espacial 1',
+    price: 3000,
+    photo: "https://i.ibb.co/87x58pV/adeus-terra.jpg"
   },
   {
     id: 2,
-    name: 'Foguete Top das Galáxias',
-    price: 18000,
-    photo: 'https://i.ibb.co/ryxNYvD/topdasgalaxias.png'
+    name: 'Produto Espacial 2',
+    price: 1000,
+    photo: "https://i.ibb.co/rbPdqHn/img1.jpg"
   },
   {
     id: 3,
-    name: 'Ônibus Espacial #AdeusTerra',
-    price: 3000,
-    photo: 'https://i.ibb.co/5LXV1Kn/adeus-terra.png'
+    name: 'Produto Espacial 3',
+    price: 18000,
+    photo: "https://i.ibb.co/wzkt7LL/topdasgalaxias.jpg"
   },
   {
     id: 4,
-    name: 'Foguete na Planta -Previsão de Entrega: 2025',
+    name: 'Produto Espacial 4',
     price: 7000,
-    photo: 'https://i.ibb.co/zs2m3Vn/naplanta.png'
+    photo: "https://i.ibb.co/ypDL4rk/mcfly.jpg"
   },
   {
     id: 5,
-    name: 'Foguete Nasa Só Para Baixinhos',
+    name: 'Produto Espacial 5',
     price: 4000,
-    photo: 'https://i.ibb.co/6wp2fyn/sopara.png'
+    photo: "https://i.ibb.co/pnQDTwz/naplanta.jpg"
   },
   {
     id: 6,
-    name: 'Nave Espacial Missão McFly - Back to 1985',
+    name: 'Produto Espacial 6',
     price: 10000,
-    photo: 'https://i.ibb.co/DkM9nts/mcfly.png'
+    photo: "https://i.ibb.co/QmrpF3P/sopara.jpg"
   }
 ]
 
@@ -57,17 +57,17 @@ class App extends React.Component {
     nameFilter: 'Produto',
     productsInCart: [
       {
-        id: 6,
-        name: 'Nave Espacial Missão McFly - Back to 1985',
-        price: 10000,
-        photo: 'https://i.ibb.co/DkM9nts/mcfly.png',
+        id: 4,
+        name: 'Produto Espacial 4',
+        price: 7000,
+        photo: "https://i.ibb.co/ypDL4rk/mcfly.jpg",
         quantity: 1
       },
       {
         id: 3,
-        name: 'Ônibus Espacial #AdeusTerra',
-        price: 3000,
-        photo: 'https://i.ibb.co/5LXV1Kn/adeus-terra.png',
+        name: 'Produto Espacial 3',
+        price: 18000,
+        photo: "https://i.ibb.co/wzkt7LL/topdasgalaxias.jpg",
         quantity: 2
       }
     ]

@@ -28,6 +28,9 @@ export class Products extends React.Component {
 
   getFilteredAndOrderedList = () => {
     return this.props.products
+      .filter((product) => this.props.maxFilter ? product.price < this.props.maxFilter : true)
+      .filter((product) => this.props.minFilter ? product.price > this.props.minFilter : true)
+      .filter((product) => this.props.nameFilter ? product.name.includes(this.props.nameFilter) : true)
       .sort((a, b) => this.state.sort === 'CRESCENTE' ? a.price - b.price : b.price - a.price)
   }
 
